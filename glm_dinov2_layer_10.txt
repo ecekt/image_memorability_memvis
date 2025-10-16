@@ -1,0 +1,47 @@
+Processing DINOv2 model...
+Generalized Linear Model Results for DINOv2:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:              mem_score   No. Observations:                10000
+Model:                            GLM   Df Residuals:                     9995
+Model Family:                Gaussian   Df Model:                            4
+Link Function:               Identity   Scale:                        0.014394
+Method:                          IRLS   Log-Likelihood:                 7017.9
+Date:                Tue, 22 Jul 2025   Deviance:                       143.87
+Time:                        00:33:12   Pearson chi2:                     144.
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.2683
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept             -0.2088      0.035     -6.028      0.000      -0.277      -0.141
+activation_max         0.0208      0.001     23.556      0.000       0.019       0.023
+activation_mean        3.8979      0.193     20.171      0.000       3.519       4.277
+activation_max_abs     0.0208      0.001     23.556      0.000       0.019       0.023
+patch_regularity      -0.4065      0.038    -10.574      0.000      -0.482      -0.331
+attentions_entropy     0.0952      0.003     27.745      0.000       0.088       0.102
+======================================================================================
+
+Processing DINOv2 model...
+Generalized Linear Model Results for DINOv2:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:              mem_score   No. Observations:                10000
+Model:                            GLM   Df Residuals:                     9995
+Model Family:                Gaussian   Df Model:                            4
+Link Function:               Identity   Scale:                        0.014394
+Method:                          IRLS   Log-Likelihood:                 7017.9
+Date:                Tue, 22 Jul 2025   Deviance:                       143.87
+Time:                        00:33:58   Pearson chi2:                     144.
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.2683
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept              0.6932      0.001    577.806      0.000       0.691       0.696
+activation_max         0.0144      0.001     23.556      0.000       0.013       0.016
+activation_mean        0.0264      0.001     20.171      0.000       0.024       0.029
+activation_max_abs     0.0144      0.001     23.556      0.000       0.013       0.016
+patch_regularity      -0.0170      0.002    -10.574      0.000      -0.020      -0.014
+attentions_entropy     0.0457      0.002     27.745      0.000       0.042       0.049
+======================================================================================
